@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "esModuleInterop": false,
+        "watch": false,
+        "sourceMap": true,
+        "outDir": "./src",
+        "experimentalDecorators": true,
+        "noImplicitAny": false,
+        "types": [],
+        "removeComments": true
+
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "build",
+    ]
+}
